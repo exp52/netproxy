@@ -1,2 +1,9 @@
 # netproxy
 Network transit proxy
+# 功能介绍
+netproxy 是一款用于加密网络中明文传输数据包的工具,最近发现正好可以加密明文的以太坊ETH,比特币BTC之类的挖矿Stratum协议,也可以消除基于SSL+Stratum中的协议特征,最近经过一些测试效果非常好。
+最重要的是的客户端可以运行在openwrt路由器中.据说还有大神折腾到了爱快之类的docker中，如果装到本地路由器中基本就可以实现无感无损转发加密后的Stratum挖矿数据。
+
+# 软件介绍
+该软件分为client端和server端,需要自己搭建中转服务器
+
